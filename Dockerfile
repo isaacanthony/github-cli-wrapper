@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 WORKDIR /src
-ENV VERSION=1.2.1
+ENV VERSION=1.3.0
 
 RUN apt-get update \
   && apt-get upgrade -y \
